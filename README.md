@@ -57,23 +57,23 @@ The dataset contains order-level e-commerce information.
 
 - 📈 Sample Visualizations
 
-📉 Monthly Sales Trend (Line Chart)
+- 📉 Monthly Sales Trend (Line Chart)
 
-📊 Category-wise Revenue (Bar Chart)
+- 📊 Category-wise Revenue (Bar Chart)
 
-📦 Best-Selling Products (Bar Chart)
+- 📦 Best-Selling Products (Bar Chart)
 
-👥 Top Customers by Spending
+-  👥 Top Customers by Spending
 
-📈 Revenue Distribution (Histogram)
+- 📈 Revenue Distribution (Histogram)
 
-🧠 Key Insights
+- 🧠 Key Insights
 
-Identified the highest revenue-generating category
+- Identified the highest revenue-generating category
 
-Discovered best-selling products by quantity
+- Discovered best-selling products by quantity
 
-Analyzed monthly sales growth
+ - Analyzed monthly sales growth
 
 Identified repeat and high-value customers
 
