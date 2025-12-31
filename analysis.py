@@ -30,9 +30,30 @@ print(f"Top Customers are :{top_customers}")
 monthly_sales.to_csv("monthly_sales.csv")
 category_revenue.to_csv("category_revenue.csv")
 print("✅ Analysis files saved")
+
+###   Monthly sales trend
+monthly_sales.plot(kind="line", marker="o")
+plt.title("Monthly Sales Trend")
+plt.xlabel("Month")
+plt.ylabel("Total Sales")
+plt.grid(True)
+plt.show()
+#### Category Wise Revenue
 category_revenue.plot(kind="bar")
 plt.title("Category-wise Revenue")
 plt.xlabel("Category")
 plt.ylabel("Total Revenue")
+plt.show()
+##### Best selling products
+product_sales.plot(kind="bar")
+plt.title("Best-Selling Products")
+plt.xlabel("Product")
+plt.ylabel("Quantity Sold")
+plt.show()
+###### Top Customers By Spending
+top_customers.head(5).plot(kind="bar")
+plt.title("Top 5 Customers by Spending")
+plt.xlabel("Customer ID")
+plt.ylabel("Total Spending")
 plt.show()
 
