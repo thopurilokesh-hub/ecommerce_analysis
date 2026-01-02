@@ -4,7 +4,7 @@
 This project performs **exploratory data analysis (EDA)** on an e-commerce dataset using **Python, Pandas, and Matplotlib**.  
 The goal is to extract **business insights** such as sales trends, best-selling products, customer behavior, and category-wise revenue.
 
-This is a **resume-worthy, real-world data analysis project**.
+
 
 ---
 
